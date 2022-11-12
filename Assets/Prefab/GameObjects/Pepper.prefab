@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3260921271048394886}
   - component: {fileID: 3260921271048394887}
   - component: {fileID: 5275403888463976841}
+  - component: {fileID: 1877995550}
   m_Layer: 0
   m_Name: Pepper
   m_TagString: Player1
@@ -102,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMovement: 6
-  jumpForce: 8
+  jumpForce: 12
   GroundJump:
     serializedVersion: 2
     m_Bits: 64
@@ -143,6 +144,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.77272725, y: 1}
   m_Direction: 0
+--- !u!114 &1877995550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3260921271048394880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c038f119ec48030419112c161adda4d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 0}
 --- !u!1 &7674702235564057326
 GameObject:
   m_ObjectHideFlags: 0
