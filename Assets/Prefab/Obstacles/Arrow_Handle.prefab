@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 5692656634998985203}
   - component: {fileID: 5692656634998985201}
   - component: {fileID: 5692656634998985200}
-  - component: {fileID: 1390748336}
+  - component: {fileID: 7521545931357665656}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gOver: {fileID: 0}
   rb2d: {fileID: 5692656634490873959}
---- !u!114 &1390748336
+--- !u!114 &7521545931357665656
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5692656634998985202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81546ecadecacec4eb29ce4c45170ced, type: 3}
+  m_Script: {fileID: 11500000, guid: d671d9e183f94fd4f82c106bcad9e57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spikeL: {fileID: 0}
