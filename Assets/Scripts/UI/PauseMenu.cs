@@ -29,6 +29,12 @@ public class PauseMenu : MonoBehaviour
                 Pause();
             }
        } 
+
+       if(Input.GetKeyDown(KeyCode.Escape) && SettingIsOn == true)
+       {
+            SettingsOff();
+            Pause();
+       }
     }
 
     public void SettingsOn()

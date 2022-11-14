@@ -1,521 +1,551 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1659212338003658, "dur": 8897222, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212338005350, "dur": 48632, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212338054226, "dur": 152340, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212338206597, "dur": 1492242, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212339698841, "dur": 7192158, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212346891020, "dur": 9860, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212374047782, "dur": 1150305, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212374048190, "dur": 13971, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212374062165, "dur": 124114, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212374186282, "dur": 824997, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212375011282, "dur": 176966, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212375188251, "dur": 9835, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212375198870, "dur": 40, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385887619850, "dur": 27538808, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385887621722, "dur": 92170, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385887714169, "dur": 175287, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385887889496, "dur": 833887, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385888723386, "dur": 26425307, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385915148726, "dur": 9931, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385955815721, "dur": 1798874, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385955816141, "dur": 15453, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385955831598, "dur": 107725, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385955939324, "dur": 836443, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385956775769, "dur": 834719, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385957610491, "dur": 4104, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385957615403, "dur": 49, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1659212374126438, "dur":2921, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374129370, "dur":316, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1659212374129756, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1659212374129797, "dur":748, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1659212374130630, "dur":1231, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374131861, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143349, "dur":198, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143547, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143568, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143571, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143579, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143581, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143590, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143592, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143598, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143600, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143606, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143608, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143614, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143616, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143622, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143625, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143631, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143632, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374143657, "dur":2123, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1659212374130534, "dur":1337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212374131873, "dur":11468, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212374130583, "dur":1296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212374131879, "dur":11571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212374130652, "dur":1235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212374131887, "dur":11539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212374130694, "dur":1202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212374131897, "dur":11481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212374130721, "dur":1183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212374131904, "dur":11466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212374130749, "dur":1161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212374131910, "dur":11453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212374130775, "dur":1141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212374131917, "dur":11440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212374130812, "dur":1110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212374131922, "dur":11428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212374147344, "dur":338, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1659212375199005, "dur": 619, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1668385955879770, "dur":2673, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955882458, "dur":296, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668385955882821, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668385955882862, "dur":509, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668385955883408, "dur":1160, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955884568, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955899387, "dur":222, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955899609, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955899624, "dur":4032, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903656, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903696, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903703, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903721, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903726, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903736, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903739, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903749, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903752, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903762, "dur":85, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903848, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903859, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903863, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903875, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903876, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955903911, "dur":3730, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668385955886619, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385955886620, "dur":12873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385955886749, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385955886749, "dur":16853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385955886416, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385955886417, "dur":12960, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385955886651, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385955886651, "dur":12760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385955886678, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385955886679, "dur":12725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385955886785, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385955886785, "dur":16743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385955886501, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385955886501, "dur":17152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385955886704, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385955886705, "dur":12686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385955911470, "dur":981, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668385957615581, "dur": 580, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1659212374775455, "dur": 206934, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659212374776903, "dur": 57784, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659212374953588, "dur": 12604, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659212374966196, "dur": 16186, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659212374967524, "dur": 14177, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659212374989769, "dur": 1728, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659212374987921, "dur": 3610, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212375199755, "dur": 200, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385956548443, "dur": 201378, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385956549759, "dur": 66134, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385956726099, "dur": 8884, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385956734987, "dur": 14822, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385956736553, "dur": 11811, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385956758843, "dur": 2314, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385956757398, "dur": 3810, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385957616272, "dur": 398, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1659212375051411, "dur":1757, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375053187, "dur":237, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1659212375053485, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1659212375053522, "dur":429, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1659212375053982, "dur":781, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375054763, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169355, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169367, "dur":79, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169447, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169459, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169476, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169481, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169499, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169504, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169518, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169523, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169536, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169540, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169555, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169558, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169599, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169604, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169617, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169649, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375169678, "dur":4134, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1659212375054307, "dur":468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375054775, "dur":8510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375063295, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1659212375063479, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375063653, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1659212375063719, "dur":681, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375064402, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1659212375064757, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375064995, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375065057, "dur":1056, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375066114, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375066157, "dur":809, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375066967, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375067009, "dur":433, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375067443, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375067475, "dur":695, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375068171, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375068205, "dur":1203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375069409, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375069556, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375069625, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375069741, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375070057, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375070169, "dur":581, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375070751, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375071378, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375071720, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375071786, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375072258, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375072399, "dur":728, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375073128, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375073175, "dur":977, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375074154, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659212375074197, "dur":1030, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375075228, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1659212375075292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375076113, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1659212375079425, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1659212375079483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375079520, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1659212375081572, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1659212375081624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659212375081631, "dur":86171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1659212375167867, "dur":1155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375054316, "dur":466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375054783, "dur":8576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375063360, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1659212375063466, "dur":930, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375064397, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1659212375064515, "dur":436, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375064951, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375065041, "dur":1042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375066084, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375066132, "dur":718, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375066850, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375066892, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067273, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067304, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067623, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067655, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067696, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067719, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067758, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067781, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375067989, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375068026, "dur":1183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375069210, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375069247, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375069467, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375069513, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375069819, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375069952, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375070254, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375070365, "dur":871, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375071237, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375071372, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375071444, "dur":747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375072191, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375072264, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375072345, "dur":600, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375072946, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375072978, "dur":687, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375073666, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375073710, "dur":1243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375074955, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375074992, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375075039, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659212375075074, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375075121, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":2, "ts":1659212375075234, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375075537, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1659212375075578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659212375092458, "dur":75514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1659212375168318, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1659212375168322, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375054357, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375054792, "dur":8513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375063306, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1659212375063476, "dur":958, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375064435, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1659212375064855, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375065026, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375065080, "dur":994, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375066080, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375066127, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375066194, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375066220, "dur":833, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375067053, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375067086, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375067317, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375067359, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375067838, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375067888, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375068389, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375068432, "dur":1062, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375069495, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375069729, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375069974, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375070121, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375070398, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375070480, "dur":813, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375071294, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375071409, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375071471, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375071905, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375071973, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375072102, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375072492, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375072530, "dur":1881, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375074412, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659212375074463, "dur":829, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375075293, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1659212375075359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375080223, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1659212375082774, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1659212375082919, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375083064, "dur":13618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1659212375096684, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375096868, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1659212375096935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375096942, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1659212375100225, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1659212375100395, "dur":1219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659212375101620, "dur":66809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375054301, "dur":471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375054774, "dur":8499, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375063295, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":4, "ts":1659212375063297, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375063556, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/app.info" }}
-,{ "pid":12345, "tid":4, "ts":1659212375063558, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375063631, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1659212375063701, "dur":659, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375064361, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1659212375064478, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375064550, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375064679, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375064774, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1659212375065026, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375065099, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375065132, "dur":951, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375066084, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375066133, "dur":725, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375066859, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375066891, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375067212, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375067261, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375067338, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375067379, "dur":523, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375067903, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375067933, "dur":1328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375069262, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375069300, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375069364, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375069403, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375069459, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375070181, "dur":1003, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375071185, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375071534, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375071623, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375071665, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375071881, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375071998, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375072311, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375072354, "dur":1069, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375073424, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375073458, "dur":1214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375074673, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659212375074709, "dur":719, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375075429, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1659212375075489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375088068, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1659212375089484, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1659212375089564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659212375089579, "dur":13959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1659212375103601, "dur":65598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375054384, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375054801, "dur":8500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375063304, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1659212375063483, "dur":991, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375064475, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1659212375064588, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375064702, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375064804, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375064902, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1659212375064988, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375065082, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375065125, "dur":953, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375066080, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375066129, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375066540, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375066869, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375066918, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375066943, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375067387, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375067430, "dur":1635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375069066, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375069096, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375069350, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375069392, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375069458, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375069931, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375070023, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375070184, "dur":730, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375070915, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375071043, "dur":781, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375071825, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375071990, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375072224, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375072369, "dur":588, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375072958, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375072998, "dur":913, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375073913, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375073959, "dur":1040, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375075000, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375075047, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375075117, "dur":16281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375091411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375091678, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659212375093520, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level4" }}
-,{ "pid":12345, "tid":5, "ts":1659212375093571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375093580, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level4" }}
-,{ "pid":12345, "tid":5, "ts":1659212375097668, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1659212375097722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659212375097730, "dur":4367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1659212375102169, "dur":67096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375054418, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375054806, "dur":8492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375063300, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1659212375063468, "dur":664, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375064134, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1659212375064260, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375064408, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1659212375064807, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375064997, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375065060, "dur":1032, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375066093, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375066132, "dur":527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375066660, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375066707, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067020, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067068, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067110, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067134, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067177, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067200, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067400, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375067438, "dur":629, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375068068, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375068107, "dur":1204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375069312, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375069343, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375069402, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375069456, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375069685, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375069831, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375070219, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375070303, "dur":969, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375071273, "dur":1412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375072685, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375072752, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375072789, "dur":1864, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375074654, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659212375074688, "dur":639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375075328, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":6, "ts":1659212375075375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375087518, "dur":5065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":6, "ts":1659212375092643, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level5" }}
-,{ "pid":12345, "tid":6, "ts":1659212375092694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375092702, "dur":5007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level5" }}
-,{ "pid":12345, "tid":6, "ts":1659212375097765, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1659212375097852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659212375097861, "dur":69935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1659212375167845, "dur":518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375054493, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375054810, "dur":8482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375063297, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1659212375063511, "dur":955, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375064467, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1659212375064585, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375064676, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375064768, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375064893, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether.exe" }}
-,{ "pid":12345, "tid":7, "ts":1659212375064934, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375064994, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375065105, "dur":972, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066081, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066130, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066367, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066399, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066455, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066479, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066518, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066542, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066588, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066611, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066664, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375066689, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067087, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067119, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067176, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067218, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067284, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067330, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067716, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067751, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067801, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067831, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067878, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375067902, "dur":957, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375068860, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375068893, "dur":799, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375069693, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375069816, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375070052, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375070161, "dur":592, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375070754, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375070844, "dur":896, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375071741, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375071786, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375071859, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375072083, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375072402, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375072445, "dur":1538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375073984, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375074044, "dur":952, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375074997, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375075057, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375075112, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375075339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375079879, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1659212375081056, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1659212375081099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375081106, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1659212375082224, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1659212375082268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375082274, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1659212375085346, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1659212375085417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375085433, "dur":8377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1659212375093859, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level3" }}
-,{ "pid":12345, "tid":7, "ts":1659212375093904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375093911, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level3" }}
-,{ "pid":12345, "tid":7, "ts":1659212375098880, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1659212375098949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1659212375098960, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1659212375102606, "dur":65826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375054526, "dur":291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375054817, "dur":8473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375063295, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1659212375063470, "dur":960, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375064431, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1659212375064995, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375065064, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375065107, "dur":966, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375066074, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375066139, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375066212, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375066241, "dur":922, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067164, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067197, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067251, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067295, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067560, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067590, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067850, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375067887, "dur":724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375068611, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375068727, "dur":871, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375069599, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375070125, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375070196, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375070329, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375070442, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375070520, "dur":1065, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375071586, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375071631, "dur":460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375072092, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375072276, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375072680, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375072724, "dur":1754, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375074479, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1659212375074525, "dur":714, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375075240, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":8, "ts":1659212375075293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375076189, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":8, "ts":1659212375078928, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":8, "ts":1659212375079011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375079024, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":8, "ts":1659212375081424, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1659212375081462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375081470, "dur":10348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1659212375091861, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level6" }}
-,{ "pid":12345, "tid":8, "ts":1659212375091962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375091973, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level6" }}
-,{ "pid":12345, "tid":8, "ts":1659212375096859, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level2" }}
-,{ "pid":12345, "tid":8, "ts":1659212375096916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375096926, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level2" }}
-,{ "pid":12345, "tid":8, "ts":1659212375099728, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1659212375099786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1659212375099794, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1659212375103772, "dur":65331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659212375176579, "dur":2564, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1659212375200012, "dur": 679, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659212375198855, "dur": 1854, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1668385956830967, "dur":2326, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385956833306, "dur":4394, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668385956837745, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668385956837773, "dur":547, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668385956838358, "dur":840, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385956839198, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579220, "dur":202, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579422, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579446, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579452, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579464, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579467, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579477, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579480, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579489, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579491, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579501, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579520, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579534, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579539, "dur":57, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579596, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579609, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579623, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579860, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957579894, "dur":3782, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668385956838443, "dur":764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385956839209, "dur":9823, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385956849050, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668385956849052, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385956849136, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668385956849142, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385956849504, "dur":8090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1668385956857595, "dur":765, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385956858361, "dur":210009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957068370, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957068483, "dur":73841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957142326, "dur":576, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957142905, "dur":83676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957226582, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957226727, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957226938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957226960, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957228376, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957228991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957229001, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957232119, "dur":987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957233115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957233126, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957235320, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957235748, "dur":1206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957236957, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957237311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957237321, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957238708, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957239341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957239349, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957241252, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957241588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957241597, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957243251, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957243489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957243499, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957244734, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957244904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957244912, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957246226, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957246461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957246493, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957247768, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957247947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957247956, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957249447, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957249703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957249713, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957252085, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957252262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957252272, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957253546, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957253715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957253722, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957254889, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957255084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957255091, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957256285, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957256483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957256490, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957257681, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957257865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957257872, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957259256, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957259454, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957259480, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957260741, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957260921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957260929, "dur":3988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957264983, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957265965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957265976, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957268314, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957268534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957268544, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957269917, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957270113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957270125, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957271925, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957272555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957272564, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957274151, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957274392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957274404, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957275678, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957276850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957276859, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957278884, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957279097, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957279215, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957279878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957279886, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957281520, "dur":45927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957327448, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957327589, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957328416, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957328534, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957328740, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957329132, "dur":2010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957331143, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957331323, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957331709, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957331840, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957332359, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957332738, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957333022, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957333127, "dur":6745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385957339872, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957340013, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385957340103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957340112, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385957343203, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957343277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957343286, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957344763, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957344826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957344834, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957346488, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957346554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957346561, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957347902, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957347971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957347979, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957349469, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957349551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957349559, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385957351310, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668385957351402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957351425, "dur":7845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668385957359333, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385957359477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957359488, "dur":23991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385957383540, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1668385957383605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957383613, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1668385957385008, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385957385083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385957385119, "dur":7614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385957392794, "dur":186431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956838482, "dur":732, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956839214, "dur":9830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956849051, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668385956849313, "dur":1542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956850856, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1668385956851186, "dur":719, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956851907, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1668385956852065, "dur":5675, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956857744, "dur":1950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1668385956859694, "dur":1306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956861002, "dur":62868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668385956923871, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385956923980, "dur":72043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385956996024, "dur":22519, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957018547, "dur":90064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957108612, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957109002, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957109340, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957109643, "dur":19105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957128748, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957128908, "dur":20026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957148935, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957149092, "dur":31245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957180337, "dur":4343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957184683, "dur":3357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957188041, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957188212, "dur":115920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957304132, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957304275, "dur":237720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385957541996, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385957542180, "dur":37029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385956838517, "dur":704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385956839221, "dur":9824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385956849051, "dur":61347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668385956910399, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385956910794, "dur":84947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385956995741, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385956995861, "dur":22457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957018319, "dur":3608, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957021931, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957022205, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957022527, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957022789, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957022905, "dur":2085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957024990, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957025132, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957025757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957027144, "dur":4698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957031908, "dur":20897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957052805, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957052931, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957053155, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957053270, "dur":55963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957109234, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957109413, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957110047, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957110160, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957110569, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957110863, "dur":45088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957155952, "dur":1603, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957157560, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957157819, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957158212, "dur":17437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957175650, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957176013, "dur":1906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957177920, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957178058, "dur":22632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957200691, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957200857, "dur":105409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957306267, "dur":19587, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957325865, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957326145, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957326546, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957326895, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957327004, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957327403, "dur":575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957327979, "dur":6218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957334198, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957334313, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957334669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957334679, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957338174, "dur":21887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957360078, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957360464, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385957361992, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668385957362061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957362070, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668385957364819, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1668385957364997, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957365131, "dur":1122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1668385957366254, "dur":1291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957367548, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668385957367647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957367658, "dur":4320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668385957372047, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668385957372121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957372130, "dur":3864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668385957376055, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1668385957376124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957376133, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1668385957377839, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1668385957377903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957377911, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1668385957379252, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1668385957379314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957379322, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1668385957382158, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1668385957382231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957382242, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1668385957384119, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1668385957384183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957384190, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1668385957387898, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668385957387985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957387996, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668385957390276, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1668385957390358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957390370, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1668385957392088, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1668385957392286, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385957392418, "dur":186803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956838552, "dur":675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956839227, "dur":9815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956849050, "dur":28831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1668385956877882, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956878122, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1668385956878302, "dur":3447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956881753, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385956882085, "dur":1150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956883237, "dur":17946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385956901184, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956901390, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385956901673, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385956901803, "dur":117418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957019222, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957019378, "dur":31694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957051073, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957051542, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957051827, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957051958, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957052192, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957052466, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957052920, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957053035, "dur":22050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957075086, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957075497, "dur":1654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957077151, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957077864, "dur":70094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957147959, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957148112, "dur":29283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957177396, "dur":2858, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957180258, "dur":22410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957202669, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957202838, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957203231, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957203370, "dur":194916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385957398287, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385957398551, "dur":180681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385956838590, "dur":644, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385956839234, "dur":10054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385956849288, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668385956849492, "dur":827, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385956850321, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1668385956850477, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385956850707, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668385956850875, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385956851227, "dur":7628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1668385956858855, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385956858970, "dur":720088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385957579059, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385957579188, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1668385957579189, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956838636, "dur":605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956839241, "dur":10041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956849285, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668385956849454, "dur":815, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956850270, "dur":9281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1668385956859551, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956859790, "dur":53166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1668385956912956, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956913032, "dur":26656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385956939689, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956940092, "dur":23094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385956963187, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956963360, "dur":32293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385956995655, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385956995850, "dur":82406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957078256, "dur":5233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957083493, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957084073, "dur":1596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957085672, "dur":41933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957127606, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957127815, "dur":1349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957129164, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957129364, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957130084, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957130258, "dur":2114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957132373, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957132729, "dur":46031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957178760, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957178887, "dur":126679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957305566, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957305713, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957305955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957305988, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957307787, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957308138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957308156, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957309582, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957309856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957309865, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957311142, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957311336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957311345, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957312576, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957312793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957312800, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957314439, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957314675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957314683, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957316055, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957316421, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957316690, "dur":5388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957322079, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957322304, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957322575, "dur":476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957323052, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957323507, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957323618, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957324215, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957324324, "dur":1489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957325814, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957325940, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957326270, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957326799, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957327005, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957327152, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957327383, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957327732, "dur":4607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957332340, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957332461, "dur":1199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957333661, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957333775, "dur":5195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385957338971, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957339132, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1668385957339331, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957339599, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1668385957339725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957339866, "dur":3891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1668385957343819, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385957343882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957343889, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385957345691, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385957345756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385957345763, "dur":196529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385957563603, "dur":15617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385956838663, "dur":584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385956839247, "dur":9953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385956849202, "dur":62015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1668385956911218, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385956911360, "dur":195108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668385957106469, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385957106695, "dur":37815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668385957144511, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385957144683, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668385957144894, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385957145035, "dur":158124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668385957303160, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385957303332, "dur":238593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668385957541926, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668385957542372, "dur":36852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956838705, "dur":548, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956839253, "dur":9793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956849051, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1668385956849230, "dur":1004, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956850237, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1668385956850413, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956850713, "dur":6960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1668385956857674, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956857952, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1668385956858102, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956858215, "dur":90043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385956948259, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956948437, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385956948687, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956948998, "dur":26234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385956975233, "dur":716, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956975955, "dur":22504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385956998461, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385956998825, "dur":68338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957067164, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957067544, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957067783, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957068043, "dur":34536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957102580, "dur":634, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957103217, "dur":22818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957126036, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957126243, "dur":19974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957146217, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957146571, "dur":78370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957224943, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957225136, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957225413, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957225577, "dur":52132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957277710, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957277853, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957278032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957278052, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957279557, "dur":207944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drago/OneDrive/Desktop/New folder (2)/StickTogether_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668385957487502, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668385957487680, "dur":91559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385957587685, "dur":2969, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668385957616779, "dur": 1424, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385957615381, "dur": 2861, "ph": "X", "name": "Write chrome-trace events", "args": {} },
