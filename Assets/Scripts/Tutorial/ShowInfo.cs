@@ -5,10 +5,12 @@ using UnityEngine;
 public class ShowInfo : MonoBehaviour
 {
     public GameObject spaceKey;
+    public Animator door1;
+    public Animator door2;
 
     private void Start()
     {
-        spaceKey.SetActive(false);
+       spaceKey.SetActive(false);
     }
     
     private void OnTriggerEnter2D(Collider2D other) {
@@ -16,6 +18,8 @@ public class ShowInfo : MonoBehaviour
         if(other.gameObject.CompareTag("Player1") || other.gameObject.CompareTag("Player2"))
         {
             spaceKey.SetActive(true);
+            door1.Play("FadeIn");
+            door2.Play("FadeIn");
         }
 
     }
@@ -24,7 +28,9 @@ public class ShowInfo : MonoBehaviour
 
         if(other.gameObject.CompareTag("Player1") || other.gameObject.CompareTag("Player2"))
         {
-            spaceKey.SetActive(false);
+            door1.Play("FadeOut");
+            door2.Play("FadeOut");
+            //spaceKey.SetActive(false);
         }
 
     }

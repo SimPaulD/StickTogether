@@ -60,7 +60,7 @@
      <Compile Include="Assets\Scripts\Score\Timer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\RailUtils.cs" />
-     <Compile Include="Assets\Arrow.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\Arrow.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\MultiTargetTrigger2D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
