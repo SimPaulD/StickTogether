@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     - DoorsMenu
     - GameOver
     - LevelSave
-    - OutOffScreen
     - PauseMenu
     - PlayerController
     - PlayerInteraction
@@ -43,8 +42,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GroupBrush
     - UnityEditor.Tilemaps.LineBrush
     - UnityEditor.Tilemaps.RandomBrush
-    Unity.PlasticSCM.Editor.dll:
-    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -74,6 +71,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.Path2D.ScriptablePathInspector
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.Light2D
@@ -328,8 +326,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10228}
     - Class: 114
       Script: {instanceID: 10742}
-    - Class: 114
-      Script: {instanceID: 12670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -429,8 +425,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10742}
     - Class: 114
       Script: {instanceID: 11144}
-    - Class: 114
-      Script: {instanceID: 12670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -556,8 +550,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12048}
     - Class: 114
       Script: {instanceID: 12108}
-    - Class: 114
-      Script: {instanceID: 12670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -683,8 +675,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12048}
     - Class: 114
       Script: {instanceID: 12108}
-    - Class: 114
-      Script: {instanceID: 12670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -816,8 +806,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12048}
     - Class: 114
       Script: {instanceID: 12108}
-    - Class: 114
-      Script: {instanceID: 12670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1007,8 +995,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12048}
     - Class: 114
       Script: {instanceID: 12482}
-    - Class: 114
-      Script: {instanceID: 12670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2566,7 +2552,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinUpdateHelper
   - hash:
       serializedVersion: 2
-      Hash: e44cf88484d66d29c00ef7a18fbc395c
+      Hash: ef2a733e852a8fa03350ef09e4f0292c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowInfo

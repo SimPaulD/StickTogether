@@ -19,11 +19,11 @@ public class DoorsMenu : MonoBehaviour
         if (p2Trigger == true && playerInteraction.use == true)
         {
             if (quit)
-                Application.Quit();
+                StartCoroutine(waitForQuit());
             else if (continueLev && PlayerPrefs.GetInt("Levels")>0)
                 SceneManager.LoadScene("Level" + PlayerPrefs.GetInt("Levels"));
             else
-                StartCoroutine(wait());
+                StartCoroutine(waitForNextLevel());
         }
     }
 
@@ -48,10 +48,17 @@ public class DoorsMenu : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    IEnumerator wait()
+    IEnumerator waitForNextLevel()
         { 
                 animator.Play("door_trans_close");
                 yield return new WaitForSeconds(2f);
                 LoadNextLevel();
         }
+    IEnumerator waitForQuit()
+        { 
+                animator.Play("door_trans_close");
+                yield return new WaitForSeconds(2f);
+                Debug.Log("Exit");
+                Application.Quit();
+        }    
 }

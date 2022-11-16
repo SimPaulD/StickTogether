@@ -18,8 +18,7 @@ public class ShowInfo : MonoBehaviour
         if(other.gameObject.CompareTag("Player1") || other.gameObject.CompareTag("Player2"))
         {
             spaceKey.SetActive(true);
-            door1.Play("FadeIn");
-            door2.Play("FadeIn");
+            StartCoroutine(waitForAnimation());
         }
 
     }
@@ -34,6 +33,15 @@ public class ShowInfo : MonoBehaviour
         }
 
     }
+
+    IEnumerator waitForAnimation()
+        { 
+                door1.Play("FadeIn");
+                door2.Play("FadeIn");
+                yield return new WaitForSeconds(0.5f);
+                door1.Play("Float");
+                door2.Play("Float");
+        }    
 
 
 }

@@ -10,6 +10,7 @@ TagManager:
   - DarkForest
   - Ground
   - Arrow
+  - Menu
   layers:
   - Default
   - TransparentFX
@@ -55,6 +56,9 @@ TagManager:
     locked: 0
   - name: Players
     uniqueID: 3763801437
+    locked: 0
+  - name: Tutorial
+    uniqueID: 1285749637
     locked: 0
   - name: Ui
     uniqueID: 1949508037
