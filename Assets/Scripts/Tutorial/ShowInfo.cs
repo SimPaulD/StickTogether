@@ -38,7 +38,7 @@ public class ShowInfo : MonoBehaviour
         { 
                 door1.Play("FadeIn");
                 door2.Play("FadeIn");
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(0.4f);
                 door1.Play("Float");
                 door2.Play("Float");
         }    
