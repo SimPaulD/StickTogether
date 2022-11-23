@@ -419,6 +419,7 @@
 "Assets/Scripts/Tutorial/ShowInfo.cs"
 "Assets/Scripts/UI/PauseMenu.cs"
 "Assets/Scripts/UI/SettingsManager.cs"
+"Assets/Scripts/UI/SettingsManagerTest.cs"
 "Assets/Scripts/UI/UIManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
