@@ -5,6 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public class Sound
 {   
+    public enum AudioTypes {soundEffect, menuMusic, ambiental, inGameMusic}
+    public AudioTypes audioType;
     public string name;
 
     public AudioClip clip;

@@ -19,11 +19,18 @@ public class DoorsMenu : MonoBehaviour
         if (p2Trigger == true && playerInteraction.use == true)
         {
             if (quit)
+            {
                 StartCoroutine(waitForQuit());
+            }
             else if (continueLev && PlayerPrefs.GetInt("Levels")>0)
+            {
                 SceneManager.LoadScene("Level" + PlayerPrefs.GetInt("Levels"));
+            }
             else
+            {
                 StartCoroutine(waitForNextLevel());
+            }
+
         }
     }
 

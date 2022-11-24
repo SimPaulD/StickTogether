@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7526762903266591212}
   - component: {fileID: 7526762903266591215}
+  - component: {fileID: 8780693028194183263}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: audio
@@ -44,48 +45,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52b8a06d4552e3f4a8052262577000b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuMusicMixerGroup: {fileID: -2622255069218339868, guid: b169ef9b6ed702848998f91ec16a6267, type: 2}
+  soundEffectMixerGroup: {fileID: 274606747550848200, guid: b169ef9b6ed702848998f91ec16a6267, type: 2}
+  inGameMusicMixerGroup: {fileID: 4600022858603087910, guid: b169ef9b6ed702848998f91ec16a6267, type: 2}
+  ambientalMixerGroup: {fileID: -5950904379606307549, guid: b169ef9b6ed702848998f91ec16a6267, type: 2}
   music: 0
   currentPlay: 
   sounds:
-  - name: Dead
+  - audioType: 0
+    name: Dead
     clip: {fileID: 8300000, guid: cc1297995fb10454faf8e721262d93e5, type: 3}
     volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Jump
+  - audioType: 0
+    name: Jump
     clip: {fileID: 8300000, guid: 850434d1f879db64fbe1512e91aaeef8, type: 3}
-    volume: 0.25
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Wrong
+  - audioType: 0
+    name: Wrong
     clip: {fileID: 8300000, guid: 4cd326e5bd05c624093cf5592c195b9a, type: 3}
     volume: 0.5
     pitch: 1.5
     loop: 0
     source: {fileID: 0}
-  - name: Theme
-    clip: {fileID: 8300000, guid: f2afdceab2ea5df44ab6036e232fa539, type: 3}
-    volume: 0.2
+  - audioType: 1
+    name: Theme
+    clip: {fileID: 8300000, guid: a20b4245badd25c49a47cb7b48202c03, type: 3}
+    volume: 1
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
-  - name: AmbientalDark
+  - audioType: 2
+    name: AmbientalDark
     clip: {fileID: 8300000, guid: 60d16bdf46078214c8edcf1454ecec0d, type: 3}
-    volume: 0.1
+    volume: 1
     pitch: 0.5
     loop: 0
     source: {fileID: 0}
-  - name: DoorSwipeOpen
-    clip: {fileID: 8300000, guid: d1233a5b6348e6f40859886d59338b69, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: DoorSwipeClose
-    clip: {fileID: 8300000, guid: 135f17690de8d5f46a5d0f1edfec3d49, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
+--- !u!114 &8780693028194183263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7526762903266591213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a7d85c41323a54098d55ae3b2312ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuMusicSliderText: {fileID: 0}
+  soundEffectSliderText: {fileID: 0}
+  ambientalSliderText: {fileID: 0}
+  inGameMusicEffectSliderText: {fileID: 0}

@@ -96,8 +96,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -214,28 +216,7 @@ ScriptsOnlyBuild:
     methodName: Sevolume
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
-    methodName: SetQuality
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsManager
-    methodName: SetFullScreen
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: SettingsOn
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: Levels
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: Menu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: ExitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: MainMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsManager
-    methodName: Sevolume
+    methodName: SetResolution
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: SetQuality
@@ -260,6 +241,36 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: Sevolume
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetResolution
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetQuality
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetFullScreen
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: SettingsOn
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Levels
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Menu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ExitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: Sevolume
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetResolution
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: SetQuality

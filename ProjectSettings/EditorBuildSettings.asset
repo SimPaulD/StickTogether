@@ -23,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/DarkForestCastle/Level3.unity
     guid: 8dd30831d6d6cbd44b8b7d89f5c6b028
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}
