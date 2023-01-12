@@ -7,6 +7,11 @@ public class SettingsMenu : MonoBehaviour
     public GameObject settingPanel;
     public bool settingIsOn;
 
+    void Start()
+    {
+       settingPanel.SetActive(false);
+    }
+
    
     void Update()
     {
@@ -14,8 +19,7 @@ public class SettingsMenu : MonoBehaviour
         {
             SettingIsOn();
         }
-
-        if(Input.GetKeyDown(KeyCode.Escape) && settingIsOn == true)
+        else if(Input.GetKeyDown(KeyCode.Escape) && settingIsOn == true)
         {
             SettingIsOff();
         }

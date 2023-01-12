@@ -11,6 +11,11 @@ TagManager:
   - Ground
   - Arrow
   - Menu
+  - MasterVol
+  - MusicVol
+  - SfxVol
+  - AmbientalVol
+  - Settings
   layers:
   - Default
   - TransparentFX

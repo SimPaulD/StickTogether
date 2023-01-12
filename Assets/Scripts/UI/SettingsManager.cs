@@ -12,9 +12,26 @@ public class SettingsManager : MonoBehaviour
     public TMP_Dropdown resolutionDropdown;
 
     Resolution[] resolutions;
+    public Toggle vsyncTog, fullScreenTog;
+
+    public static SettingsManager instance;
+
+    
+    void Awake()
+    {
+        /* if (instance == null)
+            instance = this;
+        else
+        {
+            Destroy(gameObject);
+            return;
+        } */
+    }    
 
     void Start() 
     {
+        //DontDestroyOnLoad(gameObject);
+
         resolutions = Screen.resolutions;
 
         resolutionDropdown.ClearOptions();
@@ -34,7 +51,19 @@ public class SettingsManager : MonoBehaviour
                 currentResolutionIndex = i;
             }
         }
+        
+        fullScreenTog.isOn = Screen.fullScreen;
 
+        fullScreenTog.isOn = true;
+
+        if(QualitySettings.vSyncCount == 0)
+        {
+            vsyncTog.isOn = false;
+        }
+        else
+        {
+            vsyncTog.isOn = true;
+        }
 
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
@@ -46,20 +75,27 @@ public class SettingsManager : MonoBehaviour
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
-   
-    public void SetFullScreen(bool isFullScreen)
-    {
-        Screen.fullScreen = isFullScreen;
-    }
 
     public void SetQuality(int qualityIndex)
     {
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 
-    /* public void Sevolume(float volume)
+    public void ApplyGraphics()
     {
-        audioMixer.SetFloat("Master", volume);
-    } */
+        
+        Screen.fullScreen = fullScreenTog.isOn;
+
+        if(vsyncTog.isOn)
+        {
+            Debug.Log("vSyncIsOn");
+            QualitySettings.vSyncCount = 1;
+        }
+        else
+        {
+            Debug.Log("vSyncIsOff");
+            QualitySettings.vSyncCount = 0;
+        }
+    }
 
 }
