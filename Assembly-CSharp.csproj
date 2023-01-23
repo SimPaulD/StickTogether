@@ -36,18 +36,35 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Doors\DoorsInfo.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\Obstacles\SpikeLaunch.cs" />
+     <Compile Include="Assets\Scripts\2D Camera\Scripts\Trigger2D.cs" />
+     <Compile Include="Assets\Scripts\GameOver\GameOver.cs" />
      <Compile Include="Assets\Scripts\Player\Sounds\PlayerDeathSounds.cs" />
+     <Compile Include="Assets\Scripts\Doors\DoorsMenu.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Player\Movement\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\2D Camera\Scripts\Parallax2D.cs" />
      <Compile Include="Assets\Scripts\Data\LevelSave.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\Player2D.cs" />
      <Compile Include="Assets\Scripts\AudioManager\AudioManager\BGMusicChecker.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerInteraction.cs" />
+     <Compile Include="Assets\Scripts\Load\LoadSliderPercent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\CameraTarget2D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Scripts\2D Camera\Scripts\Rail2D.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Data\RunInBackground.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\Camera2D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\Ground.cs" />
@@ -57,17 +74,31 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\Scripts\Obstacles\ArrowH.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Scripts\AudioManager\AudioManager\AudioOptionManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Scripts\Score\Timer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\RailUtils.cs" />
+     <Compile Include="Assets\Scripts\Tutorial\ShowInfo.cs" />
      <Compile Include="Assets\Scripts\Obstacles\Arrow.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Scripts\2D Camera\Scripts\RailAnchor2D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\MultiTargetTrigger2D.cs" />
+     <Compile Include="Assets\Scripts\AudioManager\AudioManager\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\FallOnTrigger.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Scripts\Obstacles\ObstacleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Scripts\AudioManager\AudioManager\Sound.cs" />
+     <Compile Include="Assets\Scripts\Doors\Doors.cs" />
      <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
      <Compile Include="Assets\Scripts\2D Camera\Scripts\InputHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -75,43 +106,11 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\Scripts\Player\TargetIndicator\TargetIndicator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\Scripts\UI\SettingsManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Scripts\AudioManager\SceneSounds\SoundPlayer.cs" />
      <Compile Include="Assets\Scripts\Player\TargetIndicator\KeepObjectInBounds.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\Doors\DoorsInfo.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-     <Compile Include="Assets\Scripts\2D Camera\Scripts\Trigger2D.cs" />
-     <Compile Include="Assets\Scripts\GameOver\GameOver.cs" />
-     <Compile Include="Assets\Scripts\Doors\DoorsMenu.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-     <Compile Include="Assets\Scripts\Player\Movement\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\2D Camera\Scripts\Parallax2D.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerInteraction.cs" />
-     <Compile Include="Assets\Scripts\Load\LoadSliderPercent.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-     <Compile Include="Assets\Scripts\2D Camera\Scripts\Rail2D.cs" />
-     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-     <Compile Include="Assets\Scripts\Data\RunInBackground.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-     <Compile Include="Assets\Scripts\Tutorial\ShowInfo.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-     <Compile Include="Assets\Scripts\2D Camera\Scripts\RailAnchor2D.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-     <Compile Include="Assets\Scripts\AudioManager\AudioManager\AudioManager.cs" />
-     <Compile Include="Assets\Scripts\Obstacles\FallOnTrigger.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-     <Compile Include="Assets\Scripts\AudioManager\AudioManager\Sound.cs" />
-     <Compile Include="Assets\Scripts\Doors\Doors.cs" />
-     <Compile Include="Assets\Scripts\UI\Console\ConsoleManager.cs" />
-     <Compile Include="Assets\Scripts\UI\SettingsManager.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Scripts\Player\TargetIndicator\OutOffScreen.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -395,11 +394,14 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -785,9 +787,6 @@
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
@@ -796,9 +795,6 @@
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -827,9 +823,6 @@
     <Reference Include="Unity.2D.Common.Editor">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
@@ -851,9 +844,6 @@
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
@@ -872,9 +862,6 @@
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
@@ -883,9 +870,6 @@
     </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
@@ -898,9 +882,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
@@ -928,9 +909,6 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\drago\OneDrive\Documente\GitHub\StickTogether\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
