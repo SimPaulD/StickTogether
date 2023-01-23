@@ -6,23 +6,31 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     public GameObject gameOverPanel;
-    public bool GameIsOver = false;
+    public bool GameIsOver;
+    public Animator animPanel;
 
     void Start()
     {
         gameOverPanel.SetActive(false);
+        GameIsOver = false;
     }
     void Update()
     {
-       //Restart();
+      StartCoroutine(animWait()); 
     }
 
-    /* public void Restart()
+    IEnumerator animWait()
     {
-         if(GameIsOver == true && Input.GetKeyDown(KeyCode.R))
+        if(GameIsOver == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            Time.timeScale = 1;
+            //Debug.Log("Hatz");
+            animPanel.Play("ShakeRestart");
+            yield return new WaitForSeconds(1f);
+            animPanel.Play("FloatInPanel");
+             
+            
         }
-    } */
+    }
+
+   
 }
